@@ -20,22 +20,20 @@ The following command will install the project's dependencies:
 ```
 npm install
 ```
----
+
 ### Usage
 The following command will initiate the project:
 
 ```
 node index
 ```
----
+
 ### License
-
 This project is licensed under the Apache license.
----
-### Contributing
 
+### Contributing
 Pull requests are welcome.
----
+
 ### Questions
 Please contact rademakerjohn1@gmail.com for any questions.
 

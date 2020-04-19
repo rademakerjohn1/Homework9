@@ -14,14 +14,12 @@ function renderLicenseSection(license) {
   if (license !== "None") {
     return (
       `### License
-
 This project is licensed under the ${license} license.`
     )
   }
   if (license === "None") {
     return (
       `### License
-
 This project is unlicensed.`
     )
   }
@@ -54,20 +52,19 @@ The following command will install the project's dependencies:
 \`\`\`
 ${data.installation}
 \`\`\`
----
+
 ### Usage
 The following command will initiate the project:
 
 \`\`\`
 ${data.usage}
 \`\`\`
----
-${renderLicenseSection(data.license)}
----
-### Contributing
 
+${renderLicenseSection(data.license)}
+
+### Contributing
 ${data.contributing}
----
+
 ### Questions
 Please contact ${data.email} for any questions.
 
