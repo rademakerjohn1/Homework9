@@ -14,24 +14,24 @@ This command-line application dynamically generates a README.md from a user's in
 * [Contributing](#Contributing)
 * [Questions](#Questions)
 ---
-### Installation
+## Installation
 The following command will install the project's dependencies:
 
 ```
 npm install
 ```
 
-### Usage
+## Usage
 The following command will initiate the project:
 
 ```
 node index
 ```
 
-### License
+## License
 This project is licensed under the Apache license.
 
-### Contributing
+## Contributing
 Pull requests are welcome.
 
 ### Questions

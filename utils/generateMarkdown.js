@@ -13,13 +13,13 @@ function renderLicenseBadge(license, github, title) {
 function renderLicenseSection(license) {
   if (license !== "None") {
     return (
-      `### License
+      `## License
 This project is licensed under the ${license} license.`
     )
   }
   if (license === "None") {
     return (
-      `### License
+      `## License
 This project is unlicensed.`
     )
   }
@@ -46,14 +46,14 @@ ${data.description}
 * [Contributing](#Contributing)
 * [Questions](#Questions)
 ---
-### Installation
+## Installation
 The following command will install the project's dependencies:
 
 \`\`\`
 ${data.installation}
 \`\`\`
 
-### Usage
+## Usage
 The following command will initiate the project:
 
 \`\`\`
@@ -62,7 +62,7 @@ ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
-### Contributing
+## Contributing
 ${data.contributing}
 
 ### Questions
