@@ -33,7 +33,8 @@ function renderAvatar(github) {
 
 function generateMarkdown(data) {
   return `
-# ${(data.title)} ${renderLicenseBadge(data.license, data.github, data.title)}
+# ${(data.title)}
+${renderLicenseBadge(data.license, data.github, data.title)}
 ${generateProjectUrl(data.github, data.title)}
 
 
@@ -41,19 +42,19 @@ ${generateProjectUrl(data.github, data.title)}
 ${data.description}
 
 ## Table of Contents
-* Installation
-* Usage
-* License
-* Contributing
-* Questions
-
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Questions](#Questions)
+---
 ### Installation
 The following command will install the project's dependencies:
 
 \`\`\`
 ${data.installation}
 \`\`\`
-
+---
 ### Usage
 The following command will initiate the project:
 
@@ -62,10 +63,10 @@ ${data.usage}
 \`\`\`
 
 ${renderLicenseSection(data.license)}
-
+---
 ### Contributing
 ${data.contributing}
-
+---
 ### Questions
 Please contact ${data.email} for any questions.
 
