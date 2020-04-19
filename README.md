@@ -1,7 +1,7 @@
 
-# Homework9
-[![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/rademakerjohn1/homework9)
-https://github.com/rademakerjohn1/homework9
+# README Generator
+[![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/rademakerjohn1/readme-generator)
+https://github.com/rademakerjohn1/readme-generator
 
 
 ## Description
@@ -12,6 +12,7 @@ This command-line application dynamically generates a README.md from a user's in
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
+* [Testing](#Testing)
 * [Questions](#Questions)
 ---
 ## Installation
@@ -32,9 +33,9 @@ node index
 This project is licensed under the Apache license.
 
 ## Contributing
-Pull requests are welcome.
+Pull requests are welcome
 
-## Contributing
+## Testing
 There is currently no testing ready for this application.
 
 ## Questions

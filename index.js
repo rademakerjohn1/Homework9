@@ -49,13 +49,13 @@ const questions = [
     {
         type: "input",
         name: "contributing",
-        message: "State if you are open to contributions and what your requirements are for accepting them.",
+        message: "State if you are open to contributions and what your requirements are for accepting them:",
     },
 
     {
         type: "input",
         name: "email",
-        message: "Please enter your email address for question submissions",
+        message: "Please enter your email address for question submissions:",
     },
 
 ];
@@ -66,6 +66,7 @@ function writeToFile(fileName, data) {
     });
 };
 
+// Prompts user with questions, then uses input to generate markdown
 function init() {
     inquirer.prompt(questions).then((userAnswers) => {
         api.getUser(userAnswers.github).then((data) => {
