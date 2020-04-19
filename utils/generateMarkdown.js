@@ -13,14 +13,16 @@ function renderLicenseBadge(license, github, title) {
 function renderLicenseSection(license) {
   if (license !== "None") {
     return (
-      `## License
+      `### License
+
 
 This project is licensed under the ${license} license.`
     )
   }
   if (license === "None") {
     return (
-      `## License
+      `### License
+
 
 This project is unlicensed.`
     )
@@ -65,6 +67,7 @@ ${data.usage}
 ${renderLicenseSection(data.license)}
 ---
 ### Contributing
+
 ${data.contributing}
 ---
 ### Questions
