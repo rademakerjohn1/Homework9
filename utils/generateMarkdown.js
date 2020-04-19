@@ -10,10 +10,6 @@ function renderLicenseBadge(license, github, title) {
   return ''
 }
 
-function renderAvatar(github) {
-  return `<img src="https://github.com/${github}.png" width="50"></img>`;
-}
-
 function renderLicenseSection(license) {
   if (license !== "None") {
     return (
@@ -31,23 +27,34 @@ This project is unlicensed.`
   }
 }
 
+function renderAvatar(github) {
+  return `<img src="https://github.com/${github}.png" width="50"></img>`;
+}
 
 function generateMarkdown(data) {
   return `
 # ${(data.title)}
 ${generateProjectUrl(data.github, data.title)}
+${renderLicenseBadge(data.license, data.github, data.title)}
 
 ## Description
 ${data.description}
 
-## Installation
+## Table of Contents
+* Installation
+* Usage
+* License
+* Contributing
+* Questions
+
+### Installation
 The following command will install the project's dependencies:
 
 \`\`\`
 ${data.installation}
 \`\`\`
 
-## Usage
+### Usage
 The following command will initiate the project:
 
 \`\`\`
@@ -56,12 +63,10 @@ ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
-${renderLicenseBadge(data.license, data.github, data.title)}
-
-## Contributing
+### Contributing
 ${data.contributing}
 
-## Questions
+### Questions
 Please contact ${data.email} for any questions.
 
 ${renderAvatar(data.github)}
