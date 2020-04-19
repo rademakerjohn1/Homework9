@@ -1,7 +1,7 @@
 
-# README Generator
-[![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/rademakerjohn1/readme-generator)
-https://github.com/rademakerjohn1/readme-generator
+# Homework9
+[![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/rademakerjohn1/homework9)
+https://github.com/rademakerjohn1/homework9
 
 
 ## Description
@@ -34,7 +34,10 @@ This project is licensed under the Apache license.
 ## Contributing
 Pull requests are welcome.
 
-### Questions
+## Contributing
+There is currently no testing ready for this application.
+
+## Questions
 Please contact rademakerjohn1@gmail.com for any questions.
 
 <img src="https://github.com/rademakerjohn1.png" width="50"></img>

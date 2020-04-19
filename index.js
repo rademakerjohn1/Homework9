@@ -61,7 +61,7 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
-    return fs.writeFile(path.join(process.cwd(), fileName), data, (err) => {
+    return fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
     });
 };

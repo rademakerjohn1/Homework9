@@ -65,7 +65,10 @@ ${renderLicenseSection(data.license)}
 ## Contributing
 ${data.contributing}
 
-### Questions
+## Contributing
+There is currently no testing ready for this application.
+
+## Questions
 Please contact ${data.email} for any questions.
 
 ${renderAvatar(data.github)}
