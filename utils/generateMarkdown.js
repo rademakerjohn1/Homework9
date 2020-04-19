@@ -44,6 +44,7 @@ ${data.description}
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
+* [Testing](#Testing)
 * [Questions](#Questions)
 ---
 ## Installation
@@ -65,7 +66,7 @@ ${renderLicenseSection(data.license)}
 ## Contributing
 ${data.contributing}
 
-## Contributing
+## Testing
 There is currently no testing ready for this application.
 
 ## Questions
