@@ -27,15 +27,14 @@ The following command will initiate the project:
 ```
 node index
 ```
-
+---
 ### License
-
 
 This project is licensed under the Apache license.
 ---
 ### Contributing
 
-Pull requests are welcome
+Pull requests are welcome.
 ---
 ### Questions
 Please contact rademakerjohn1@gmail.com for any questions.

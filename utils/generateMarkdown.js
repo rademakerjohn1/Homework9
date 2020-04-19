@@ -15,14 +15,12 @@ function renderLicenseSection(license) {
     return (
       `### License
 
-
 This project is licensed under the ${license} license.`
     )
   }
   if (license === "None") {
     return (
       `### License
-
 
 This project is unlicensed.`
     )
@@ -63,7 +61,7 @@ The following command will initiate the project:
 \`\`\`
 ${data.usage}
 \`\`\`
-
+---
 ${renderLicenseSection(data.license)}
 ---
 ### Contributing
