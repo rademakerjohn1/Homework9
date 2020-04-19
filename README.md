@@ -1,7 +1,7 @@
 
-# README Generator
+# README Generator[![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/rademakerjohn1/readme-generator)
 https://github.com/rademakerjohn1/readme-generator
-[![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/rademakerjohn1/readme-generator)
+
 
 ## Description
 This application dynamically generates a README.md from a user's input.
@@ -29,7 +29,7 @@ node index
 
 ## License
 
-This project is licensed under the Apache license.
+This project is licensed under the GPL license.
 
 ### Contributing
 Pull requests are welcome.

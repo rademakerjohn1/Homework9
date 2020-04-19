@@ -33,9 +33,9 @@ function renderAvatar(github) {
 
 function generateMarkdown(data) {
   return `
-# ${(data.title)}
+# ${(data.title)}${renderLicenseBadge(data.license, data.github, data.title)}
 ${generateProjectUrl(data.github, data.title)}
-${renderLicenseBadge(data.license, data.github, data.title)}
+
 
 ## Description
 ${data.description}
